@@ -3,7 +3,7 @@ a = int(a)
 b = int(b)
 c = int(c)
 
-if (a == b == c): 
+if (a == b == c): # a,b,c 모두 같을 때
     print(10000 + a* 1000)
     
 elif a == b:
