@@ -1,0 +1,105 @@
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+f=input()
+g=input()
+h=input()
+i=input()
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+e=int(e)
+f=int(f)
+g=int(g)
+h=int(h)
+i=int(i)
+A=max(a,b)
+A=max(A,c)
+A=max(A,d)
+A=max(A,e)
+A=max(A,f)
+A=max(A,g)
+A=max(A,h)
+A=max(A,i)
+print(A)
+if A==a:
+  k=1
+elif A==b:
+  k=2
+elif A==c:
+  k=3
+elif A==d:
+  k=4
+elif A==e:
+  k=5
+elif A==f:
+  k=6
+elif A==g:
+  k=7
+elif A==h:
+  k=8
+else:
+  k=9
+print(k)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a=input()
+b=input()
+c=input()
+d=input()
+e=input()
+f=input()
+g=input()
+h=input()
+i=input()
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(d)
+e=int(e)
+f=int(f)
+g=int(g)
+h=int(h)
+i=int(i)
+A=max(a,b,c,d,e,f,g,h,i)
+print(A)
+if A==a:
+  k=1
+elif A==b:
+  k=2
+elif A==c:
+  k=3
+elif A==d:
+  k=4
+elif A==e:
+  k=5
+elif A==f:
+  k=6
+elif A==g:
+  k=7
+elif A==h:
+  k=8
+else:
+  k=9
+print(k)
