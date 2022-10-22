@@ -1,0 +1,7 @@
+N,X=input().split()
+N=int(N)
+X=int(X)
+c=list(map(int,input().split()))
+for i in c: 
+  if i<X:
+    print(i,end =  " ")
