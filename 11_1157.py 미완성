@@ -1,0 +1,10 @@
+a=input()
+a_count1=[ ]
+for i in range (ord("a"),ord("z")+1):
+  a_count1.append(a.count(chr(i)))
+a_count1.sort(reverse=True)
+if a_count1[0]==a_count1[1]:
+  print("?")
+else:
+  print(a_count1[0])
+  소문자 대문자로
