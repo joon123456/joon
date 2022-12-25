@@ -1,0 +1,12 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+d=int(input())
+print(c+(d%3600)%60)
+if c+(d%3600)%60>=60:
+  print(c+d%3600)%60-60)
+
+#A/3600 -> 시 
+#(A%3600)/60 -> 분 
+#(A%3600)%60 -> 초
