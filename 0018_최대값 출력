@@ -13,3 +13,20 @@ for j in range(n) :
 
 
 print(arr[-1])
+
+
+
+
+
+n = int(input())
+
+arr = list(map(int,input().split()))
+
+big = -99999
+pos=-1
+for i in range(n) :
+  if big < arr[i] :
+    big = arr[i]
+    pos = i
+
+print(big,pos)
