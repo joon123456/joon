@@ -1,0 +1,15 @@
+#예제입력
+#5
+#1 4 2 3 5
+
+n = int(input())
+
+arr = list(map(int,input().split()))
+  
+for j in range(n) :
+  for i in range(n-1):
+    if arr[i+1]<arr[i]:
+      arr[i+1] , arr[i] = arr[i] , arr[i+1]
+
+
+print(arr[-1])
