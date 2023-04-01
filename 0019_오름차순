@@ -1,0 +1,13 @@
+arr = list(map(int,input().split()))
+sarr = []
+n = len(arr)
+
+for i in range(n) :
+  idx = 0
+  for j in range(len(sarr)):
+     if sarr[j]<arr[i]:
+      idx += 1
+  sarr.insert(idx,arr[i])
+
+print(arr)
+print(sarr)
