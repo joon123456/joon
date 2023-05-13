@@ -4,3 +4,16 @@ for i in range(1,29):
   a.remove(b)
 print(a[0])
 print(a[1])
+
+
+
+#or
+
+
+student = list(range(1,31))
+for i in range(28):
+  solved = int(input())
+  student.remove(solved)
+
+print(student[0])
+print(student[1])
