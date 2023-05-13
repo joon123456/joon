@@ -25,3 +25,32 @@ elif a=="D-":
  print("0.7")
 elif a=="F":
  print("0.0")
+ 
+ 
+ #or
+ 
+ M=input() + "0"
+b=0.0
+if M[0]=="A":
+  b=b+4.0
+elif M[0]=="B":
+  b=b+3
+elif M[0]=="C":
+  b=b+2
+elif M[0]=="D":
+  b=b+1
+elif M[0]=="F":
+  b=b
+
+if M[1]=="+":
+  b=b+0.3
+elif M[1]=="0":
+  b=b
+elif M[1]=="-":
+  b=b-0.3
+elif m[1]=="":
+  b=b
+
+print(b)
+  
+  
