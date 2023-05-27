@@ -1,0 +1,19 @@
+def solution(array, commands):
+    answer = []
+    for command in commands:
+        i = command[0] -1
+        j = command[1] 
+        k = command[2] - 1
+        temp = array[i:j]
+        temp.sort()
+        answer.append(temp[k])
+        
+    return answer
+
+#command 에서 반복문을 돌림
+#array에서 i에서 j까지 슬라이싱
+#슬라이싱을 한뒤 오름차순으로 정렬
+#정렬한후 그 리스트에 케이 번째 수를 구함.
+#케이 번째 수들을 엔서에 어펜드
+#리턴
+
